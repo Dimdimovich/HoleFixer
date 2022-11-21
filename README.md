@@ -57,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Person STL Processing][product-screenshot]](https://github.com/Dimdimovich/HoleFixer)
+![Person STL Processing](https://github.com/Dimdimovich/HoleFixer/blob/main/HoleFixer.png?raw=true)
 
 Here's a project for a demonstration of the hole-fixing algorithm. 
 The class `STLProcessor` from `tools/stlProcessor.py` implements the main components of the algorithm. It uses the `find_holes` method to find cracks in the geometry. This method exploits an additional data structure, `mesh_edges_dict`. It is a dictionary with edges as keys and faces indices as values. The algorithm constructs holes described as edges set belonging to only one face. Each hole in the generated list is a consequent list of vertices from previously selected edges.
@@ -176,4 +176,4 @@ Project Link: [https://github.com/Dimdimovich/HoleFixer](https://github.com/Dimd
 [PyVista-url]: https://pymeshfix.pyvista.org/
 [PyQt]: https://img.shields.io/badge/pyqt-000000?style=for-the-badge&logo=qt&logoColor=white
 [PyQt-url]: https://www.riverbankcomputing.com/software/pyqt/
-[product-screenshot]: HoleFixer.png
+[product-screenshot]: https://github.com/Dimdimovich/HoleFixer/blob/main/HoleFixer.png?raw=true
