@@ -103,6 +103,7 @@ The project was created with python version 3.6.3
    git clone https://github.com/Dimdimovich/HoleFixer.git
    ```
 2. activate
+  
   on Windows
    ```sh
    ./venv/Scripts/Activate
