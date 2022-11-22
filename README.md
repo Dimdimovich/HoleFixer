@@ -114,7 +114,7 @@ The project was created with python version 3.6.3
    ```
   on OSX/Linux
    ```sh
-   ./venv/bin/activate
+   source ./venv/bin/activate
    ```
 4. Install used packages
    ```sh
