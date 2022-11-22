@@ -102,7 +102,7 @@ The project was created with python version 3.6.3
    ```sh
    git clone https://github.com/Dimdimovich/HoleFixer.git
    ```
-2. activate
+2. Activate
   
   on Windows
    ```sh
