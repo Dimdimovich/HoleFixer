@@ -102,7 +102,11 @@ The project was created with python version 3.6.3
    ```sh
    git clone https://github.com/Dimdimovich/HoleFixer.git
    ```
-2. Activate
+2. Create a Python virtualenv
+   ```sh
+   python -m venv venv
+   ```
+3. Activate
   
   on Windows
    ```sh
@@ -112,7 +116,7 @@ The project was created with python version 3.6.3
    ```sh
    ./venv/bin/activate
    ```
-3. Install used packages
+4. Install used packages
    ```sh
    python -m pip install pyqt6
    ```
