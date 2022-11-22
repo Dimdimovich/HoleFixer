@@ -61,7 +61,10 @@
 
 Here's a project for a demonstration of the hole-fixing algorithm. 
 The class `STLProcessor` from `tools/stlProcessor.py` implements the main components of the algorithm. It uses the `find_holes` method to find cracks in the geometry. This method exploits an additional data structure, `mesh_edges_dict`. It is a dictionary with edges as keys and faces indices as values. The algorithm constructs holes described as edges set belonging to only one face. Each hole in the generated list is a consequent list of vertices from previously selected edges.
+
 `fill_holes` is the second method of the `STLProcessor` class that implements the hole processing algorithm. It fills holes with patches. These patches are made of triangles starting at hole centroids and relying on hole edges. Moreover, this procedure cleans the mesh from a specified form of hanging triangles. It removes lonely triangles with only one free edge.
+
+The program shows the result as four meshes. The first one is the grey mesh generated with `pymeshfix` as a reference mesh. The second one is the original mesh with holes and hanging triangles hihglighted. The third one is the repaired mesh with unfixed issues highlighted. The last one is the grey mesh of added triangles. 
 
 The proposed algorithm has several weaknesses:
 
